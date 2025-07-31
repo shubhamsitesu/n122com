@@ -1,4 +1,4 @@
-User-agent: Googlebot
+User-agent: *
 Disallow:
 
 User-agent: ia_archiver
@@ -17,9 +17,6 @@ User-agent: urlpreviewbot
 Disallow: /
 
 User-agent: Twitterbot
-Disallow: /
-
-User-agent: *
 Disallow: /
 
 Sitemap: https://nonnnn.com/sitemap.xml
