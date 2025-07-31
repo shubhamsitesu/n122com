@@ -1,0 +1,25 @@
+User-agent: Googlebot
+Disallow:
+
+User-agent: ia_archiver
+Disallow: /
+
+User-agent: archive.org_bot
+Disallow: /
+
+User-agent: archivebot
+Disallow: /
+
+User-agent: screenshotmachine
+Disallow: /
+
+User-agent: urlpreviewbot
+Disallow: /
+
+User-agent: Twitterbot
+Disallow: /
+
+User-agent: *
+Disallow: /
+
+Sitemap: https://nonnnn.com/sitemap.xml
