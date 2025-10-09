@@ -573,7 +573,4 @@ Disallow: /wp-login.php
 Disallow: /wp-register.php
 
 # Sitemap location
-Sitemap: https://nona123.com/sitemap.xml
-
-# Crawl delay for some bots
-Crawl-delay: 1
+Sitemap: https://nagita188.com/sitemap.xml
