@@ -28,7 +28,7 @@
   <meta property="twitter:description" content="Domain premium Nagita188.com dijual. Peluang emas untuk memiliki merek game online terpercaya di Indonesia.">
   <meta property="twitter:image" content="https://nagita188.com/images/nagita188-twitter.jpg">
 
-  <!-- JSON-LD Structured Data - COMPLETELY FIXED -->
+  <!-- JSON-LD Structured Data - COMPLETELY FIXED FOR MERCHANT LISTINGS -->
   <script type="application/ld+json">
   {
     "@context": "https://schema.org",
@@ -104,7 +104,8 @@
           "seller": {
             "@type": "Organization",
             "@id": "https://nagita188.com/#organization",
-            "name": "Nagita188"
+            "name": "Nagita188",
+            "url": "https://nagita188.com"
           },
           "shippingDetails": {
             "@type": "OfferShippingDetails",
@@ -127,6 +128,10 @@
                 "maxValue": 0,
                 "unitText": "Day"
               }
+            },
+            "shippingDestination": {
+              "@type": "DefinedRegion",
+              "addressCountry": "ID"
             }
           },
           "hasMerchantReturnPolicy": {
@@ -134,7 +139,17 @@
             "applicableCountry": "ID",
             "returnPolicyCategory": "https://schema.org/MerchantReturnFiniteReturnWindow",
             "merchantReturnDays": 30,
-            "returnMethod": "https://schema.org/ReturnByMail"
+            "returnMethod": "https://schema.org/ReturnByMail",
+            "returnFees": "https://schema.org/FreeReturn"
+          },
+          "warranty": {
+            "@type": "WarrantyPromise",
+            "durationOfWarranty": {
+              "@type": "QuantitativeValue",
+              "minValue": 365,
+              "maxValue": 365,
+              "unitText": "Day"
+            }
           }
         },
         "review": [
